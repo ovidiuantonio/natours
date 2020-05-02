@@ -4,7 +4,7 @@
   margin-top: -20vh;
 
   @include respond(tab-port) {
-    padding: 25vh 0 20vh 0;
+    padding: 25vh 0;
   }
 }
 
@@ -41,7 +41,7 @@
 }
 
 .section-stories {
-  padding: 30vh 0;
+  padding: 20vh 0;
   position: relative;
 
   @include respond(tab-port) {
@@ -50,7 +50,7 @@
 }
 
 .section-booking {
-  padding: 30vh 0;
+  padding: 20vh 0;
   background-image: linear-gradient(
     to right bottom,
     $color-primary-light,
