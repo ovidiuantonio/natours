@@ -31,10 +31,18 @@
       font-size: 3rem;
       text-decoration: none;
       display: inline-block;
+
+      @include respond(tab-port) {
+        color: $color-primary;
+      }
     }
 
     &:hover {
       color: $color-primary;
+
+      @include respond(tab-port) {
+        color: $color-grey-dark;
+      }
     }
   }
 
@@ -84,6 +92,10 @@
   &__img {
     display: block;
     width: 100%;
+
+    @include respond(phone) {
+      display: none;
+    }
   }
 
   &__text {
