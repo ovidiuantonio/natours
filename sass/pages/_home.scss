@@ -60,6 +60,10 @@
   @include respond(tab-port) {
     padding: 10rem;
   }
+
+  @include respond(phone) {
+    padding: 10rem 0;
+  }
 }
 
 .book {
@@ -104,5 +108,11 @@
         rgba($color-white, 0.9) 100%
       ),
       url("../img/nat-10.jpg");
+  }
+}
+
+.row.b {
+  @include respond(phone) {
+    padding: 0;
   }
 }
