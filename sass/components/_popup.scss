@@ -98,7 +98,7 @@
     display: block;
     width: 100%;
 
-    @include respond(tab-port) {
+    @include respond(phone) {
       display: none;
     }
   }
