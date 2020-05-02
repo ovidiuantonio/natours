@@ -65,6 +65,11 @@
       display: block;
       width: 65%;
     }
+
+    @include respond(phone) {
+      display: block;
+      width: 100%;
+    }
   }
 
   &__left {
